@@ -14,16 +14,22 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <!-- Jumbotron -->
+      <div class="text-center bg-light pb-3">
+        <h1 class="mb-3 mt-3">Domain Generator</h1>
+        <h4 class="mb-3 text-info">
+          Find combinations of words and come out with your perfect domain name.
+        </h4>
+        <h5>Input: "the", "our", "great", "big", "jogger", "racoon"</h5>
       </div>
+      <!-- End of Jumbotron -->
+
+      <!-- Domain List -->
+
+      <ul id="domain"></ul>
+      <!-- End of domain list -->
     </div>
+
+    <script src="./app.js"></script>
   </body>
 </html>
